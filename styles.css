@@ -1,0 +1,171 @@
+
+.fondoFechaNacimiento {
+    background-color: #000000; /* Un color temporal que se sobrescribirá desde JavaScript */
+  }
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .container{
+
+    width: 100%;
+    /*max-width: 1200px;*/
+    margin: 0px;
+    padding: 20px 0;
+  
+
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+  }
+  
+  .titulo{
+    
+    justify-content: space-evenly;
+    display: flex;
+    text-align: center;
+
+    color: rgb(39, 39, 39);
+    font-family: 'Ysabeau Office', sans-serif;
+    font-size: 36px;
+
+  }
+
+  .parrafo{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center; /* alinea el contenido */
+    text-align: center;
+    height: 200px;
+
+    color: rgb(53, 53, 53);
+    font-family: 'Ysabeau Office', sans-serif;
+    font-size: 36px;
+
+  }
+  
+  .ingresa{
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 200px;
+
+    color: rgb(53, 53, 53);
+    font-family: 'Ysabeau Office', sans-serif;
+    font-size: 36px;
+
+  }
+
+  .ingresa > input {
+
+    width: 100%;
+    height: 20%;
+    background: transparent;
+    padding: 0 15px;
+    border-radius: 10px;
+    outline: none;
+
+  }
+
+  .ingresa > input:hover{
+    width: 150%;
+    height: 25%;
+  }
+
+
+/*
+  .ingresa > label {
+    position: absolute;
+    top: 57%;
+    left: 40%;
+    transform: translateY(-50%);
+    color: #383838;
+    pointer-events: none;
+    transition: .3s;
+
+    font-family: 'Ysabeau Office', sans-serif;
+    font-size: 30px;
+
+  }
+ 
+  input:focus ~ label {
+    top: 53%;
+    left: 28%;
+    font-size: 16px;
+    padding: 0 2px;
+   
+    
+  }
+*/
+
+
+  .boton{
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 200px;
+    border: none;
+    outline: 0px;
+    
+  }
+
+  .boton > button {
+    border-radius: 50%; /* Botón redondo */
+    width: 200px;
+    height: 200px;
+    background-color: rgb(66, 66, 66); 
+    color: rgb(192, 192, 192); 
+    
+    
+    border: none; 
+
+    font-family: 'Ysabeau Office', sans-serif;
+    font-size: 46px;
+    cursor: pointer;
+  }
+
+  .boton > button:hover{ /* cambio color del boton cuando pas el cursor por encima*/
+    background-color:rgb(53, 53, 53);
+    width: 205px;
+    height: 205px;
+    color: rgb(223, 223, 223); 
+    box-shadow: 0 0 10px rgb(173, 173, 173), 0 0 5px rgb(99, 99, 99), 0 0 10px rgb(39, 39, 39);
+
+ }
+
+
+
+
+  #result{
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-start ;
+    height: 120px;
+
+    color: rgb(53, 53, 53);
+    font-family: 'Ysabeau Office', sans-serif;
+    font-size: 36px;
+
+
+  }
+
+
+
+/*
+
+poner sobran al boton
+acciones del boton
+Quitar numero en input cuando escriba su numero
+acomodar stilo de resultado
+*/

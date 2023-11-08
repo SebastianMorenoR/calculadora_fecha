@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Color de Fecha de Nacimiento</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+Office:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+
+   
+</head>
+<body>
+    <div class="container">
+
+        <div class="titulo">
+             <h1>Calculadora de Color de Fecha de Nacimiento</h1>
+        </div>
+
+        <form id="dateForm">
+            <div class="parrafo">
+                 <label for="birthdate">Ingresa tu fecha de nacimiento</label>
+            </div>
+
+            <div class="ingresa">
+                <input type="number" id="birthdate" placeholder="DD / MM / YYYY">
+                <!--<label>DD / MM / YYYY</label>-->
+            </div>
+
+            <div class="boton">
+                <button type="button" onclick="calcularColor()">Calcular Color</button>
+             </div>
+            <div id="colorResult"></div>
+        </form>
+        <div id="result"></div>
+
+    </div>
+        
+    <script src="script.js"></script>
+</body>
+</html>
+
+
