@@ -73,3 +73,5 @@ function calcularColor() {
     document.getElementById('birthdate').value = '';
   }
   
+
+  //Cambio
